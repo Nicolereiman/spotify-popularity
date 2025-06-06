@@ -100,10 +100,10 @@ This repository includes all core components of the analysis, from data explorat
 
 | File                           | Description |
 |--------------------------------|-------------|
-| **`Spotify_EDA.ipynb`**        | Exploratory Data Analysis notebook: distributions, outliers, unique values, and correlations. |
-| **`FeatureEngineering.ipynb`** | Feature engineering steps including language detection, artist count, and frequency encoding. |
-| **`FinalModel.ipynb`**         | Regression model training and evaluation (XGBoost, Lasso, Random Forest, etc.) with final performance metrics. |
-| **`Spotify_Popularity.pdf`** | Visual summary of the full project: objectives, methods, results, SHAP analysis, and key conclusions. |
+| **`Spotify_EDA.ipynb`**        | Exploratory Data Analysis: dataset structure, distributions, outliers, categorical breakdown, and correlation analysis. |
+| **`Competencias.ipynb`**       | Feature engineering: language detection using `langdetect`, frequency encoding, artist count extraction, and transformation logic for model input. |
+| **`Final_Model.ipynb`**        | Full machine learning pipeline: regression models (XGBoost, Random Forest, etc.), evaluation metrics (R², MSE), hyperparameter tuning, and SHAP analysis. |
+| **`Spotify_Popularity_Presentation.pdf`** | Visual summary of the project: motivation, pipeline, model results, feature importance, and business impact. |
 
 > **Note:** The dataset was sourced from [Kaggle](https://www.kaggle.com/) and is not included in this repository due to size restrictions.
 
